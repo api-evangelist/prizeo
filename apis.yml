@@ -1,8 +1,31 @@
 aid: prizeo
 name: Prizeo
-description: Prizeo is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Prizeo is a charity fundraising platform that runs celebrity-driven online
+  sweepstakes: supporters donate as little as $10 to a participating cause to be
+  entered for a chance to win once-in-a-lifetime experiences and prizes with
+  well-known names in music, sports, and entertainment. Campaigns run on behalf
+  of charities and celebrity partners, donations are processed online (Stripe and
+  PayPal), and winners are selected by raffle under published official rules.
+  Prizeo operates as part of the Charity Network family of fundraising brands
+  (alongside Charitybuzz) and was backed by Battery Ventures. It is a
+  consumer-facing web application; the /api/v1 and /api/v2 endpoints observed on
+  the site are private backends for its own React frontend rather than a
+  documented, public developer API — there is no developer portal, OpenAPI, SDKs,
+  or public API program.
 url: https://raw.githubusercontent.com/api-evangelist/prizeo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.prizeo.com/assets/images/favicon/apple-touch-icon-152x152.f9462e.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Charity
+- Fundraising
+- Sweepstakes
+- Nonprofit
+- Donations
+- Payments
+- Entertainment
 apis: []
+common:
+- type: DomainSecurity
+  url: security/prizeo-domain-security.yml
+- type: Website
+  url: https://www.prizeo.com
+- type: About
+  url: https://www.prizeo.com/about
+- type: FAQ
+  url: https://www.prizeo.com/faq
+- type: Support
+  url: https://www.prizeo.com/contact-us
+- type: TermsOfService
+  url: https://www.prizeo.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.prizeo.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
